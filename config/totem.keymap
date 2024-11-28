@@ -81,19 +81,19 @@
         math {
             label = "MATH";
             bindings = <
-        &trans            &trans        &trans     &trans          &trans    &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9  &kp DOT
-        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp MINUS     &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_0
-&trans  &trans            &trans        &trans     &trans          &trans    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp SLASH     &kp EQUAL
-                                        &trans     &trans          &trans    &trans        &trans        &kp RIGHT_SHIFT
+        &trans            &trans        &trans     &trans          &trans    &kp ASTERISK      &kp NUMBER_7       &kp NUMBER_8          &kp NUMBER_9  &kp DOT
+        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp MINUS         &kp NUMBER_4       &kp NUMBER_5          &kp NUMBER_6  &kp NUMBER_0
+&trans  &trans            &trans        &trans     &trans          &trans    &kp PLUS          &kp NUMBER_1       &kp NUMBER_2          &kp NUMBER_3  &kp SLASH     &kp EQUAL
+                                        &trans     &trans          &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
             >;
         };
 
         navi {
             bindings = <
-        &trans    &trans    &trans     &trans          &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP   &kp END    &trans
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
-&trans  &trans    &trans    &trans     &trans          &trans    &trans    &kp K_UNDO     &kp K_REDO  &trans     &kp K_CUT   &trans
-                            &trans     &trans          &trans    &trans    &trans         &trans
+        &trans    &trans    &trans     &trans          &trans    &kp HOME    &kp PAGE_DOWN  &kp PG_UP   &kp END    &kp LG(X)
+        &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT    &kp LEFT       &kp UP      &kp RIGHT  &kp LG(Y)
+&trans  &trans    &trans    &trans     &trans          &trans    &trans      &kp K_UNDO     &kp DOWN    &trans     &kp LG(D)  &trans
+                            &trans     &trans          &trans    &kp K_COPY  &kp K_PASTE    &kp K_UNDO
             >;
         };
 
